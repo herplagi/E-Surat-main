@@ -41,7 +41,7 @@
                     <p style="margin-top: 1px; margin-bottom: 1px; margin-left:15px;">Perusahaan<span style="margin-left:5px;">: </span>{{$keterangan->perusahaan}}</p>
                     <br>
                     <p style="margin-top: 1px; margin-bottom: 1px;">Dengan ini menerangkan bahwa :</p>
-                    <p style="margin-top: 1px; margin-bottom: 1px; margin-left:15px;">Nama<span style="margin-left:37px;">: </span>{{$keterangan->nama_yang_diterangka}}</p>
+                    <p style="margin-top: 1px; margin-bottom: 1px; margin-left:15px;">Nama<span style="margin-left:37px;">: </span>{{$keterangan->nama_yang_diterangkan}}</p>
                     <p style="margin-top: 1px; margin-bottom: 1px; margin-left:15px;">Nip<span style="margin-left:51px;">: </span>{{$keterangan->nip}}</p>
                     <p style="margin-top: 1px; margin-bottom: 1px; margin-left:15px;">Alamat<span style="margin-left:32px;">: </span>{{$keterangan->alamat}}</p>
                     <p style="margin-top: 1px; margin-bottom: 1px; margin-left:15px;">Unit Kerja<span style="margin-left:16px;">: </span>{{$keterangan->unit_kerja}}</p>
@@ -50,7 +50,7 @@
                     <p style="margin-top: 1px; margin-bottom: 1px;">Surat keterangan ini dibuat untuk dapat digunakan seperlunya.</p>
                     <br>
                     <p style="margin-top: 1px; margin-bottom: 1px;">{{'Padang, ' . \Carbon\Carbon::parse($keterangan->letter_date)->format('d l Y')}}.</p>
-                    <p style="margin-top: 1px; margin-bottom: 1px;">Koperasi Keluarga Besar Seemen Padang</p>
+                    <p style="margin-top: 1px; margin-bottom: 1px;">Koperasi Keluarga Besar Semen Padang</p>
                     <br>
                     <br>
                     <p style="margin-top: 1px; margin-bottom: 1px; font-weight: bold; text-decoration: underline;">{{$keterangan->nama_yang_bertandatangan}}</p>

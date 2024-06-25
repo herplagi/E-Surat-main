@@ -103,7 +103,7 @@
         </div>
 
         <div class="mb-3 row ">
-            <label for="alamat_penerima" class="col-sm-3 col-form-label">Alaamt Penerima</label>
+            <label for="alamat_penerima" class="col-sm-3 col-form-label">Alamat Penerima</label>
             <div class="col-sm-9">
                 <input type="text" class="form-control" name="alamat_penerima" placeholder="Alamat Penerima.." required>
             </div>
