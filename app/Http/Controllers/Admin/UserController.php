@@ -136,28 +136,6 @@ class UserController extends Controller
                 ->with('success', 'Sukses! Data Pengguna telah dihapus');
     }
 
-    // public function upload_profile(Request $request)
-    // {
-    //     $validatedData = $request->validate([
-    //         'profile' => 'required|image|file|max:10240',
-    //     ]);
-
-    //     $id = $request->id;
-    //     $item = User::findOrFail($id);
-
-    //     //dd($item);
-
-    //     if($request->file('profile')){
-    //         Storage::delete($item->profile);
-    //         $item->profile = $request->file('profile')->store('assets/profile-images');
-    //     }
-
-    //     $item->save();
-
-    //     return redirect()
-    //             ->route('user.index')
-    //             ->with('success', 'Sukses! Photo Pengguna telah diperbarui');
-    // }
 
     public function change_password()
     {

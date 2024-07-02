@@ -12,7 +12,7 @@
     </form>
     <ul class="navbar-nav align-items-center ms-auto">
         <a class="me-3" href="https://saweria.co/pinokiowo" target="_blank" >
-        Kelompok 8
+        
         </a> 
         <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
             <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
